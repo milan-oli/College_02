@@ -4,7 +4,8 @@ The function should have two parameters: price (representing the original price)
 (with a default value of 10%). The function should return the calculated discounted price.
 In the main function, prompt the user to enter the original price of an item. Then, 
 call the calculateDiscountedPrice function twice: once with the default discount percentage and
-once with a specific discount percentage entered by the user. Finally, print the original price and the two discounted prices.
+once with a specific discount percentage entered by the user. Finally, print the original price and
+the two discounted prices.
 */
 #include<iostream>
 using namespace std;

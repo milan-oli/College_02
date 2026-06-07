@@ -1,9 +1,16 @@
-
+/*
+Write a C++ function called updateEmployeeSalary that takes a reference parameter salary 
+and increases it by a given percentage. In the main function, prompt the user to enter 
+an employee's current salary and the percentage increase. Call the updateEmployeeSalary 
+function, passing the entered salary and percentage increase. The function should modify 
+the salary by increasing it based on the given percentage. Finally, print the original 
+salary and the updated salary to verify the changes.
+*/
 #include<iostream>
 using namespace std;
 
-float updateEmployeeSalary(float currentSalary, float percentageIncrease){
-    return currentSalary + (currentSalary * percentageIncrease / 100);
+void updateEmployeeSalary(float &salary, float percentageIncrease){
+    salary = salary + (salary * percentageIncrease / 100);
 }   
 
 int main(){
@@ -15,7 +22,8 @@ int main(){
     cin>>percentageIncrease;
 
     cout << "Current salary : " << currentSalary << endl;
-    cout << "Updated salary : " << updateEmployeeSalary(currentSalary, percentageIncrease) << endl;
+    updateEmployeeSalary(currentSalary, percentageIncrease);
+    cout << "Updated salary : " << currentSalary << endl;
 
     return 0;
 }
