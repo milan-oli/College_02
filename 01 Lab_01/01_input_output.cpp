@@ -1,6 +1,7 @@
 /* Write a program to read inputs from a keyboard and display the output in the 
 monitor using Input/Output streams. */
 #include <iostream>
+#include <string>
 using namespace std;
 int main() {
     string name;
