@@ -9,7 +9,7 @@ and initial balance, perform a deposit, perform a withdrawal, and print the upda
 
 using namespace std;
 struct BankAccount{
-    double accountNumber;
+    unsigned long int accountNumber;
     string accountHolderName;
     double accountBalance = 0.0;
 
