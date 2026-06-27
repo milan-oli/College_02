@@ -1,4 +1,4 @@
-# Lab 05 — Object Oriented Programming in C++
+# Lab 05 — DMA, this Pointer and Const members
 
 This lab covers four core OOP concepts in C++: dynamic memory allocation, the `this` pointer, static members, and constant member functions.
 
